@@ -1,0 +1,22 @@
+.main-header {
+  text-align: center;
+  padding: 30px;
+}
+
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 24px;
+  color: antiquewhite;
+  justify-content: space-between;
+  padding: 18px;
+  font-family: Comic Sans Ms;
+  font-weight: bold;
+}
+
+.link-button:hover,
+.link-button:focus {
+text-decoration: none;
+}

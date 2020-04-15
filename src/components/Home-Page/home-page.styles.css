@@ -1,0 +1,10 @@
+h1 {
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: antiquewhite;
+  white-space: pre-wrap;
+  text-indent: 50px;
+}

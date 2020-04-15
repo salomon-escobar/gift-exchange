@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/Header';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import HomePage from './components/Home-Page/HomePage';
+import PastExchanges from './components/Past-Exchanges/PastExchanges';
+import WishList from './components/Wishlist/WishList';
 
-function App() {
+
+class App extends React.Component {
+  render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <div>
+        <Header />
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route path='/past-exchanges' component={PastExchanges} />
+          <Route path='/wishlist' component={WishList} />
+        </Switch>
+      </div>
+    </BrowserRouter>
+    );
+  }
 }
 
 export default App;
