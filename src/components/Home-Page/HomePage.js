@@ -26,8 +26,6 @@ class HomePage extends React.Component {
           Eget mi proin sed libero enim sed faucibus turpis in. Augue neque gravida in fermentum. Congue quisque egestas diam in arcu cursus euismod. Eget lorem dolor sed viverra. Id porta nibh venenatis cras sed felis eget velit. Tortor at auctor urna nunc id cursus. Adipiscing elit pellentesque habitant morbi tristique senectus. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Dui sapien eget mi proin. Pulvinar elementum integer enim neque.`}
         </p>
       </h1>
-
-
     );
   }
 };
