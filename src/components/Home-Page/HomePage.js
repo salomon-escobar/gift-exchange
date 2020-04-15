@@ -1,11 +1,14 @@
 import React from 'react';
 import './home-page.styles.css';
+import '../ImageGallery/MyGallery';
+import MyGallery from '../ImageGallery/MyGallery';
 
 class HomePage extends React.Component {
   render() {
     return (
       <h1 className='home-page-header'>
         <strong>Home Page</strong>
+        <MyGallery />
         <br></br>
         <br></br>
         <p className='paragraph'>
